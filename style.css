@@ -1,0 +1,67 @@
+body{
+    background-color: burlywood;
+    color: white;
+}
+.title-in-article{
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
+#header-and-nav{
+    display: flex;
+}
+.nav-items-list{
+    display: flex;
+    margin: 0%;
+
+}
+.nav-items{
+    flex: auto;
+}
+nav{
+    flex: 625px;
+    align-self: flex-end;
+
+}
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+footer{
+    background-color: darkslategray;
+}
+header{
+    background-color: darkslategray;
+    flex: 50px;
+}
+#projects-article{
+    display: flex;
+}
+#list-of-projects{
+    display: grid;
+    flex: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#project-a{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 0;
+    grid-column-start: 1;
+}
+#project-b{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+#project-c{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
+a{
+    text-decoration: none;
+}
