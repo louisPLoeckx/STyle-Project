@@ -2,8 +2,9 @@ body{
     background-color: burlywood;
     color: white;
 }
+
 .title-in-article{
-    border-style: dashed;
+    border-style: double;
     border-color: black;
     border-width: 1px;
     text-align: center;
